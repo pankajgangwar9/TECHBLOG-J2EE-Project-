@@ -39,6 +39,7 @@ public class LoginServlet extends HttpServlet {
 			Message msg=new Message("Invalid Details ! try with another", " error","alert-danger");
 			HttpSession s = request.getSession();
 			s.setAttribute("msg", msg);
+			
 			response.sendRedirect("login_page.jsp");
 		}
 		else {

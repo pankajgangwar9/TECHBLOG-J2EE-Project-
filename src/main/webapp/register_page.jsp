@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,9 +47,10 @@
 								<label for="exampleInputEmail1">Email address</label> <input
 									name="user_email" type="email" class="form-control"
 									id="exampleInputEmail1" aria-describedby="emailHelp"
-									placeholder="Enter email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" > <small id="emailHelp"
-									class="form-text text-muted">We'll never share your
-									email with anyone else.</small>
+									placeholder="Enter email"
+									pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> <small
+									id="emailHelp" class="form-text text-muted">We'll never
+									share your email with anyone else.</small>
 							</div>
 
 							<!-- Password   -->
