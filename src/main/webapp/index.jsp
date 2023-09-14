@@ -19,15 +19,14 @@
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<style >
-.banner-background{
-clip-path: polygon(100% 0, 100% 100%, 61% 96%, 29% 97%, 0 100%, 0 0);
-
+<style>
+.banner-background {
+	clip-path: polygon(100% 0, 100% 100%, 61% 96%, 29% 97%, 0 100%, 0 0);
 }
 </style>
 </head>
 <body>
-<!--  navbar -->
+	<!--  navbar -->
 	<%@include file="normal_navbar.jsp"%>
 
 	<!-- Banner -->
@@ -40,8 +39,9 @@ clip-path: polygon(100% 0, 100% 100%, 61% 96%, 29% 97%, 0 100%, 0 0);
 					<button class="btn btn-outline-dark btn-lg">
 						<span class="fa fa-external-link-square"></span>Start! its Free
 					</button>
-					<a href="login_page.jsp" class="btn btn-outline-dark btn-lg">
-						<span class="fa fa-user-circle"></span>Login</a>
+					<a href="login_page.jsp" class="btn btn-outline-dark btn-lg"> <span
+						class="fa fa-user-circle"></span>Login
+					</a>
 			</div>
 		</div>
 	</div>
